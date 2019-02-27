@@ -1,4 +1,4 @@
-- use https://serverless.com/
+- use https://serverless.com/framework/docs/providers/aws/guide/credentials#creating-aws-access-keys to create AWS credentials
 - `yarn dev` to test locally
 - `yarn deploy` to deploy
 
