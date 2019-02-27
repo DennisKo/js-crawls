@@ -1,3 +1,7 @@
+- use https://serverless.com/
+- `yarn dev` to test locally
+- `yarn deploy` to deploy
+
 lambda accepts the following body:
 
 ```
