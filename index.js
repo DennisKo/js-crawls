@@ -14,7 +14,6 @@ module.exports.handler = async (event, context) => {
   });
 
   let page = await browser.newPage();
-  console.log(event);
   await page.goto(event.body.url, {
     waitUntil: 'networkidle2',
   });

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Serverless webpack example using ecma script",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "sls deploy",
+    "dev": "IS_LOCAL=true sls offline start"
   },
   "dependencies": {
     "chrome-aws-lambda": "^1.12.0",
